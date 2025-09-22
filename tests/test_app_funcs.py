@@ -1,6 +1,9 @@
 
 import pytest
+import sys
+sys.path.append(".")
 from app_funcs import soma, subtracao, multiplicacao, divisao, saudacao
+
 
 def test_soma():
     assert soma(2, 3) == 5
